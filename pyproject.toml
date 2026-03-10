@@ -1,0 +1,10 @@
+[project]
+name = "databridge-lab"
+version = "0.1.0"
+description = "Sandbox repository for testing data engineering connectors, data movement pipelines, and ML workflows"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
